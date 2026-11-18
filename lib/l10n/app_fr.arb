@@ -1,0 +1,471 @@
+﻿{
+  "@@locale": "fr",
+  "appTitle": "Traceur GPS",
+  "languageFrench": "Français",
+  "languageArabic": "العربية",
+  "settingsLanguage": "Langue",
+  "languageSelection": "Choisir la langue",
+  "manageUsers": "Gestion des utilisateurs",
+  "usersTitle": "Utilisateurs",
+  "usersAdministrators": "Administrateurs",
+  "usersAdministrator": "Administrateur",
+  "usersAdminRole": "Admin",
+  "usersAdd": "Ajouter",
+  "usersDelete": "Supprimer",
+  "usersDeleteTitle": "Supprimer ce compte ?",
+  "usersDeleteMessage": "{name} ne pourra plus se connecter.",
+  "@usersDeleteMessage": { "placeholders": { "name": {} } },
+  "usersEmpty": "Aucun utilisateur pour le moment.\nAppuyez sur « Ajouter » pour créer le premier.",
+  "usersNoAdministrators": "Aucun administrateur.",
+  "usersNoUsers": "Aucun utilisateur.",
+  "usersActions": "Actions",
+  "usersNewUser": "Nouvel utilisateur",
+  "usersRole": "Rôle",
+  "usersFirstName": "Prénom",
+  "usersLoginNameHint": "Utilisé pour se connecter",
+  "usersAgeLabel": "Âge",
+  "usersAge": "{age} ans",
+  "@usersAge": { "placeholders": { "age": { "type": "int" } } },
+  "usersResidence": "Lieu de résidence",
+  "usersPhone": "Numéro de téléphone",
+  "usersCinPassword": "CIN (mot de passe)",
+  "usersCinHint": "8 chiffres : il servira de mot de passe",
+  "usersRequiredField": "Champ obligatoire.",
+  "usersAgeRequired": "Âge obligatoire.",
+  "usersAgeRange": "Entre 0 et 120.",
+  "usersPhoneInvalid": "Numéro invalide.",
+  "usersCinInvalid": "Le CIN doit contenir 8 chiffres.",
+  "usersSaving": "Enregistrement…",
+  "mapTab": "Carte",
+  "herdsTab": "Troupeaux",
+  "alertsTab": "Alertes",
+  "animalsTab": "Animaux",
+  "historyTab": "Historique",
+  "settingsTab": "Réglages",
+  "account": "Compte",
+  "toggleBackgroundImage": "Atténuer l’image de fond",
+  "showBackgroundImage": "Afficher l’image en couleurs",
+  "disconnect": "Se déconnecter",
+  "login": "Connexion",
+  "register": "Inscription",
+  "start": "Commencer",
+  "authorizedAccess": "Accès réservé aux comptes autorisés",
+  "authConnecting": "Connexion au serveur…",
+  "authWelcome": "Bienvenue",
+  "authCreateMainAccount": "Créer le compte principal",
+  "authFirstAccountDescription": "Aucun compte n’existe encore. Ce compte sera le super administrateur : il pourra ajouter les administrateurs et les utilisateurs.",
+  "authLoginDescription": "Connectez-vous pour accéder au suivi de votre troupeau.",
+  "authName": "Nom",
+  "authEnterName": "Entrez votre nom",
+  "authNameRequired": "Le nom est obligatoire.",
+  "authMinNameLength": "Au moins 2 caractères.",
+  "authPassword": "Mot de passe",
+  "authPasswordRequired": "Le mot de passe est obligatoire.",
+  "authMinPasswordLength": "Au moins 8 caractères.",
+  "authConfirmPassword": "Confirmer le mot de passe",
+  "authPasswordsMismatch": "Les mots de passe diffèrent.",
+  "authShowPassword": "Afficher",
+  "authHidePassword": "Masquer",
+  "authCreateAccount": "Créer le compte",
+  "authNetworkError": "Connexion impossible. Vérifiez votre réseau puis réessayez.",
+  "authInvalidInformation": "Certaines informations sont invalides.",
+  "authServerError": "Erreur serveur ({statusCode}).",
+  "@authServerError": { "placeholders": { "statusCode": { "type": "int" } } },
+  "roleTitle": "Le rôle de l'application",
+  "appRoleDescription": "Traceur vous permet de localiser vos animaux en temps réel, de surveiller leurs déplacements et d'être alerté dès qu'un animal quitte la zone autorisée.",
+  "trackingByGps": "SUIVI DU TROUPEAU PAR GPS",
+  "configuration": "CONFIGURATION",
+  "liveLocation": "Localisation en direct",
+  "liveLocationDescription": "Visualisez la position de chaque animal sur la carte, en temps réel.",
+  "securityZone": "Zone de sécurité",
+  "securityZoneDescription": "Définissez un périmètre autour du pâturage pour garder le troupeau sous contrôle.",
+  "instantAlerts": "Alertes instantanées",
+  "instantAlertsDescription": "Soyez prévenu immédiatement en cas de sortie de zone ou d'anomalie.",
+  "routeHistory": "Historique des trajets",
+  "routeHistoryDescription": "Consultez les déplacements passés pour mieux comprendre le comportement du troupeau.",
+  "herdMonitoring": "Surveillance du troupeau",
+  "herdMonitoringDescription": "Personnalisez les seuils et les alertes selon vos besoins.",
+  "availableParameters": "{count} paramètres disponibles",
+  "@availableParameters": { "placeholders": { "count": {} } },
+  "loadingParameters": "Chargement des paramètres…",
+  "loadingImpossible": "Chargement impossible",
+  "retry": "Réessayer",
+  "saveParameters": "Enregistrer les paramètres",
+  "settingsLanguageSection": "Langue",
+  "languageToggleHint": "Choisissez votre langue préférée",
+  "parameterGroupingDistance": "Distance de regroupement",
+  "parameterGroupingDistanceDescription": "Deux animaux plus proches que cette distance sont dans le même groupe.",
+  "parameterMaximumDistance": "Éloignement maximal",
+  "parameterMaximumDistanceDescription": "Au-delà de cette distance du troupeau, l’animal est considéré comme isolé.",
+  "parameterMinimumHerdSize": "Taille minimale du troupeau",
+  "parameterMinimumHerdSizeDescription": "Nombre minimum d’animaux pour former un troupeau.",
+  "parameterMaximumSpeed": "Vitesse maximale",
+  "parameterMaximumSpeedDescription": "Au-dessus de cette vitesse, un dépassement est détecté.",
+  "parameterImmobilityDuration": "Durée d’immobilité",
+  "parameterImmobilityDurationDescription": "Temps sans déplacement avant de déclencher une alerte.",
+  "parameterCollarSignalDelay": "Délai sans signal du collier",
+  "parameterCollarSignalDelayDescription": "Temps sans nouvelle donnée avant de déclencher une alerte.",
+  "herdGroupingSection": "Regroupement du troupeau",
+  "herdGroupingSectionDescription": "Comment les animaux sont regroupés et suivis.",
+  "speedAndImmobilitySection": "Vitesse et immobilité",
+  "speedAndImmobilitySectionDescription": "Seuils de vitesse et de repos des animaux.",
+  "collarSignalSection": "Signal du collier",
+  "collarSignalSectionDescription": "Surveillance du signal envoyé par le collier.",
+  "settingsLoadError": "Impossible de charger les paramètres. Vérifiez votre connexion, puis réessayez.",
+  "settingsSaveSuccess": "Les paramètres ont bien été enregistrés.",
+  "settingsSaveError": "Enregistrement impossible. Vérifiez votre connexion puis réessayez.",
+  "notificationsTitle": "Notifications",
+  "notificationsDescription": "Recevez les alertes du troupeau et les nouveaux messages.",
+  "monitoringDurationLabel": "Durée de surveillance",
+  "monitoringStart": "Activer la surveillance",
+  "monitoringStop": "Arrêter la surveillance",
+  "monitoringActive": "Surveillance active",
+  "monitoringInactive": "Surveillance inactive",
+  "monitoringRunningDescription": "Les alertes sont vérifiées toutes les 30 secondes, pendant la durée choisie. Une connexion Internet est nécessaire.",
+  "monitoringPermissionDenied": "Autorisez les notifications dans Android pour recevoir les alertes.",
+  "monitoringOperationError": "Impossible de modifier la surveillance des alertes.",
+  "messagesNotifications": "Notifications de messages",
+  "messagesNotificationsDescription": "Alertez-moi à l’arrivée d’un nouveau message, même si l’application est fermée.",
+  "messagesNotificationsEnabled": "Notifications de messages activées.",
+  "messagesNotificationsDisabled": "Notifications de messages désactivées.",
+  "notificationsPermissionRequired": "Autorisez les notifications dans les réglages Android pour continuer.",
+  "notificationDurationMinutes": "{minutes} min",
+  "@notificationDurationMinutes": { "placeholders": { "minutes": { "type": "int" } } },
+  "notificationDurationHours": "{hours} h",
+  "@notificationDurationHours": { "placeholders": { "hours": { "type": "int" } } },
+  "settingsUnexpectedError": "Une erreur est survenue.",
+  "settingsServerError": "Le serveur a répondu avec le code {statusCode}.",
+  "@settingsServerError": { "placeholders": { "statusCode": { "type": "int" } } },
+  "settingsInvalidValue": "{label} : saisissez une valeur valide.",
+  "@settingsInvalidValue": { "placeholders": { "label": {} } },
+  "requiredField": "Obligatoire.",
+  "integerRequired": "Nombre entier requis.",
+  "numberRequired": "Nombre requis.",
+  "settingsSaving": "Enregistrement…",
+  "settingsChangesApplied": "Les changements sont appliqués après leur enregistrement.",
+  "languageFrenchOption": "Français",
+  "languageArabicOption": "العربية",
+  "close": "Fermer",
+  "countAlerts": "{count} en alerte",
+  "@countAlerts": { "placeholders": { "count": {} } },
+  "searchAnimalsAndCoordinates": "Rechercher un animal ou des coordonnées",
+  "zoneLabel": "Zone : {name}",
+  "@zoneLabel": { "placeholders": { "name": {} } },
+  "unknownZone": "pâturage",
+  "positionLive": "Position en direct",
+  "collarNoSignal": "Collier sans signal",
+  "alertActive": "Alerte active",
+  "herdGroupLabel": "Grand troupeau",
+  "smallHerdLabel": "Petit troupeau {number}",
+  "@smallHerdLabel": { "placeholders": { "number": {} } },
+  "isolatedCow": "Vache isolée · {id}",
+  "@isolatedCow": { "placeholders": { "id": {} } },
+  "settingsTitle": "Réglages",
+  "languageSection": "Langue",
+  "save": "Enregistrer",
+  "cancel": "Annuler",
+  "countAnimals": "{count} animaux",
+  "@countAnimals": { "placeholders": { "count": {} } },
+  "onlineStatus": "En ligne",
+  "offlineStatus": "Hors ligne",
+  "alertsTitle": "Alertes",
+  "alertsMonitoring": "Surveillance du troupeau",
+  "alertsToHandle": "Alertes à traiter",
+  "alertsToHandleMessage": "Les alertes se mettent à jour en direct.",
+  "active": "Active",
+  "information": "Information",
+  "alertSection": "Alertes",
+  "infoSection": "Information",
+  "noAlertsActive": "Aucune alerte active",
+  "noAlertsMessage": "Votre troupeau est sous surveillance. Les nouvelles alertes apparaîtront ici.",
+  "connectionInterrupted": "Connexion interrompue",
+  "connectionInterruptedMessage": "La connexion est interrompue. Les alertes apparaîtront lorsque la connexion sera rétablie.",
+  "animalLeftHerd": "Cet animal s'est éloigné du reste du troupeau",
+  "animalOutsidePasture": "Cet animal est sorti du pâturage",
+  "animalAtDistanceFromLimit": "Il se trouve à {distance} m de la limite.",
+  "@animalAtDistanceFromLimit": { "placeholders": { "distance": {} } },
+  "animalInactive": "Cet animal n'a presque pas bougé depuis longtemps. Vérifiez qu'il n'est pas blessé ou malade.",
+  "abnormalMovement": "Cet animal se déplace plus vite ou plus loin que d'habitude.",
+  "collarSilent": "Le collier n'envoie plus de signal. Vérifiez la batterie ou la couverture réseau.",
+  "abnormalBehavior": "Le comportement de cet animal a changé par rapport à ses habitudes.",
+  "noDetailProvided": "Aucun détail fourni.",
+  "dateUnavailable": "Date non disponible",
+  "lstmPageTitle": "Mouvements agités",
+  "lstmPageSubtitle": "Détectés automatiquement",
+  "lstmEventTitle": "Mouvement agité",
+  "lstmExpectedPosition": "Position attendue",
+  "lstmActualPosition": "Position réelle",
+  "lstmDistanceLabel": "Écart : {distance}",
+  "@lstmDistanceLabel": { "placeholders": { "distance": {} } },
+  "lstmMeters": "{distance} m",
+  "@lstmMeters": { "placeholders": { "distance": { "type": "int" } } },
+  "lstmKilometers": "{distance} km",
+  "@lstmKilometers": { "placeholders": { "distance": {} } },
+  "lstmMovementDescription": "D’après ses habitudes, l’animal devait se trouver au point bleu. Il est en réalité au point rouge, à environ {distance}.",
+  "@lstmMovementDescription": { "placeholders": { "distance": {} } },
+  "lstmAdviceStrong": "Ce déplacement est très inhabituel : nous vous conseillons de vérifier l’animal.",
+  "lstmAdviceMarked": "Ce déplacement est inhabituel : une vérification est conseillée.",
+  "lstmAdviceModerate": "Ce déplacement est un peu inhabituel : à surveiller.",
+  "lstmLegacyPositionUnavailable": "Les positions de cette ancienne alerte ne sont pas disponibles. Les prochaines alertes afficheront la carte.",
+  "lstmTodayAt": "Aujourd’hui à {time}",
+  "@lstmTodayAt": { "placeholders": { "time": {} } },
+  "lstmYesterdayAt": "Hier à {time}",
+  "@lstmYesterdayAt": { "placeholders": { "time": {} } },
+  "lstmDateAt": "{day}/{month}/{year} à {time}",
+  "@lstmDateAt": {
+    "placeholders": {
+      "day": {},
+      "month": {},
+      "year": { "type": "int" },
+      "time": {}
+    }
+  },
+  "lstmLoadError": "Impossible de charger les données. Vérifiez la connexion puis réessayez.",
+  "lstmNoEvents": "Aucun mouvement agité",
+  "lstmNoEventsMessage": "Tout semble normal. Les nouvelles alertes apparaîtront ici.",
+  "startedAt": "Début ·",
+  "viewActivityHistory": "Voir l'historique d'activité",
+  "animalNotIdentified": "Animal non identifié",
+  "unknownAlert": "Alerte",
+  "animalSeparatedFromGroup": "animal est actuellement séparé du groupe",
+  "animalsSeparatedFromGroup": "animaux sont actuellement séparés du groupe",
+  "alertTypeOutOfZone": "Animal éloigné du troupeau",
+  "alertTypeOutsidePasture": "Animal sorti du pâturage",
+  "alertTypeInactive": "Animal immobile depuis longtemps",
+  "alertTypeUnusualMovement": "Déplacement anormal",
+  "alertTypeCollarSilent": "Collier sans signal",
+  "alertTypeUnusualBehavior": "Comportement inhabituel",
+  "herdOverviewTitle": "Vue d’ensemble des groupes",
+  "waitingForData": "En attente des données",
+  "groupsWillAppearHere": "Les groupes apparaîtront ici dès réception des premières données.",
+  "herdDataIncomplete": "Données de troupeau incomplètes",
+  "grandHerdNotYetDisplayed": "Le grand troupeau ne peut pas encore être affiché. Vérifiez les données reçues.",
+  "noHerdDetected": "Pas encore de troupeau détecté",
+  "groupAppearsWhenEnoughAnimals": "Un groupe apparaîtra lorsqu’il y aura suffisamment d’animaux actifs.",
+  "zoomIn": "Zoom avant",
+  "zoomOut": "Zoom arrière",
+  "centerPasture": "Centrer sur la zone de pâturage",
+  "centerAnimals": "Centrer sur les animaux",
+  "waitingForFirstPositions": "En attente des premières positions…",
+  "trackingConnectionInterrupted": "Connexion au suivi interrompue",
+  "noPositionsAvailable": "Aucune position disponible pour le moment",
+  "noPastureRecorded": "Aucune zone de pâturage enregistrée",
+  "noAnimalMatches": "Aucun animal ne correspond à « {query} »",
+  "@noAnimalMatches": { "placeholders": { "query": {} } },
+  "enterCoordinatesFormat": "Saisissez les coordonnées sous la forme 36.80, 10.18",
+  "invalidCoordinatesExample": "Coordonnées invalides. Exemple : 36.80, 10.18",
+  "pastureName": "Pâturage",
+  "mainPastureName": "Pâturage principal",
+  "automaticModeLabel": "auto",
+  "noGroupsDetected": "aucun groupe détecté",
+  "groupCount": "{count, plural, =0{aucun groupe} one{{count} groupe} other{{count} groupes}}",
+  "@groupCount": { "placeholders": { "count": { "type": "int" } } },
+  "detectedGroups": "GROUPES DÉTECTÉS",
+  "liveTrackedAnimals": "Animaux suivis en direct",
+  "animalInAlert": "Animal en alerte",
+  "alertSuffix": "alerte",
+  "pastureZone": "Zone de pâturage",
+  "distanceToMainHerd": "Trait : distance au grand troupeau",
+  "animalsInGroup": "{count, plural, =0{0 animal} one{1 animal} other{{count} animaux}}",
+  "@animalsInGroup": { "placeholders": { "count": { "type": "int" } } },
+  "animalsOutsideZone": "{count, plural, one{# animal hors de la zone : {ids}} other{# animaux hors de la zone : {ids}}}",
+  "@animalsOutsideZone": { "placeholders": { "count": { "type": "int" }, "ids": {} } },
+  "openStreetMapAttribution": "© les contributeurs d’OpenStreetMap"
+  ,"herdTracking": "SUIVI DU TROUPEAU"
+  ,"currentComposition": "Composition actuelle"
+  ,"herdCompositionDescription": "Retrouvez les groupes et les animaux isolés."
+  ,"isolatedGroups": "Groupes isolés"
+  ,"animalsAlone": "Animaux seuls"
+  ,"animalsInGroupLabel": "Animaux dans le groupe"
+  ,"otherGroups": "Autres groupes"
+  ,"noOtherGroups": "Aucun autre groupe détecté pour le moment."
+  ,"isolatedAnimal": "Animal isolé"
+  ,"smallHerd": "Petit troupeau"
+  ,"distanceUnavailable": "Distance indisponible"
+  ,"distanceFromMainHerd": "À {distance} m du grand troupeau"
+  ,"@distanceFromMainHerd": { "placeholders": { "distance": {} } }
+  ,"thresholdExceeded": "Seuil dépassé"
+  ,"belowThreshold": "Sous le seuil"
+  ,"animalIdsUnavailable": "Identifiants des animaux indisponibles."
+  ,"myHerd": "Mon troupeau"
+  ,"animalTrackingLive": "Suivi des animaux en direct"
+  ,"trackedAnimals": "Animaux suivis"
+  ,"searchAnimalsGroupsTypes": "Rechercher un animal, un groupe ou un type"
+  ,"clearSearch": "Effacer la recherche"
+  ,"cardsView": "Cartes"
+  ,"tableView": "Tableau"
+  ,"animalsHeading": "ANIMAUX"
+  ,"resultCount": "{count, plural, one{{count} résultat} other{{count} résultats}}"
+  ,"@resultCount": { "placeholders": { "count": { "type": "int" } } }
+  ,"identifier": "Identifiant"
+  ,"group": "Groupe"
+  ,"type": "Type"
+  ,"sex": "Sexe"
+  ,"age": "Âge"
+  ,"weight": "Poids"
+  ,"gps": "GPS"
+  ,"lastMeasurement": "Dernière mesure"
+  ,"action": "Action"
+  ,"edit": "Modifier"
+  ,"editInformation": "Modifier les informations"
+  ,"unknownGroup": "Groupe inconnu"
+  ,"addAnimalDetails": "Ajouter âge, type, poids et sexe"
+  ,"animalInfoSaved": "Informations de {id} enregistrées"
+  ,"@animalInfoSaved": { "placeholders": { "id": {} } }
+  ,"animalInfoUnavailable": "Informations des animaux indisponibles."
+  ,"now": "À l’instant"
+  ,"timeAgo": "Il y a {count} {unit}"
+  ,"@timeAgo": { "placeholders": { "count": {}, "unit": {} } }
+  ,"secondsShort": "s"
+  ,"minutesShort": "min"
+  ,"hoursShort": "h"
+  ,"daysShort": "j"
+  ,"gpsUnavailable": "GPS indisponible"
+  ,"animalFeatures": "Caractéristiques de l’animal"
+  ,"typeAndBreed": "Type / race"
+  ,"currentValue": "Valeur actuelle"
+  ,"female": "Femelle"
+  ,"male": "Mâle"
+  ,"yearsUnit": "ans"
+  ,"monthsUnit": "mois"
+  ,"ageYears": "{count, plural, one{{count} an} other{{count} ans}}"
+  ,"@ageYears": { "placeholders": { "count": { "type": "int" } } }
+  ,"ageMonths": "{count} mois"
+  ,"invalidNumber": "Nombre invalide"
+  ,"ageRangeError": "Entre 0 et 40 ans"
+  ,"weightRangeError": "Entre 1 et 1500 kg"
+  ,"saveFailed": "Enregistrement impossible."
+  ,"cancel": "Annuler"
+  ,"save": "Enregistrer"
+  ,"waitingPositions": "En attente des positions…"
+  ,"trackingOffline": "Suivi hors ligne"
+  ,"noAnimalFound": "Aucun animal trouvé"
+  ,"animalsAppearOnGps": "Les animaux apparaîtront ici dès la prochaine mise à jour GPS."
+  ,"connectionInterruptedAnimals": "La connexion est interrompue. Les positions réapparaîtront à la reconnexion."
+  ,"tryDifferentSearch": "Essayez un autre identifiant, groupe ou type."
+  ,"resetSearch": "Réinitialiser la recherche"
+  ,"speciesCattle": "Vaches"
+  ,"speciesSheep": "Moutons"
+  ,"speciesHorses": "Chevaux"
+  ,"breedHolstein": "Prim’Holstein (Pie-noire)"
+  ,"breedBrownSwiss": "Brune des Alpes (Brune)"
+  ,"breedTarentaise": "Tarentaise (Tarasconnaise)"
+  ,"breedMontbeliarde": "Montbéliarde"
+  ,"breedNormande": "Normande"
+  ,"breedRedPied": "Pie Rouge"
+  ,"breedJersey": "Jersiaise"
+  ,"breedAtlasBrown": "Brune de l’Atlas (vache locale / « Arbi »)"
+  ,"breedCapBonBlonde": "Blonde du Cap-Bon"
+  ,"breedCrossbred": "Races croisées"
+  ,"breedBarbarine": "Barbarine (« Arbi »)"
+  ,"breedFineTail": "Queue Fine de l’Ouest (« Gharbi »)"
+  ,"breedThibar": "Noire de Thibar"
+  ,"breedSiciloSarde": "Sicilo-Sarde"
+  ,"breedCherki": "Cherki (hybride)"
+  ,"breedBarb": "Barbe (Barbe tunisien)"
+  ,"breedArabian": "Pur-Sang Arabe"
+  ,"breedArabBarb": "Arabe-Barbe"
+  ,"breedMogodsPony": "Poney des Mogods"
+  ,"breedThoroughbred": "Pur-Sang (Anglais)"
+  ,"historyTitle": "Historique d’activité"
+  ,"recentAnimalActivity": "Suivi récent de vos animaux"
+  ,"searchAnimalId": "Rechercher par ID (ex : cow01)"
+  ,"clear": "Effacer"
+  ,"yourAnimals": "Vos animaux"
+  ,"selectAnimalForActivity": "Sélectionnez un animal pour consulter son activité."
+  ,"viewActivityForSevenDays": "Voir l’activité sur 7 jours"
+  ,"noHistoryAnimals": "Aucun animal disponible pour l’historique."
+  ,"noSearchResults": "Aucun résultat"
+  ,"noAnimalToDisplay": "Aucun animal à afficher"
+  ,"noAnimalMatchesSearch": "Aucun animal ne correspond à « {query} »."
+  ,"@noAnimalMatchesSearch": { "placeholders": { "query": {} } }
+  ,"lstmAnalysisTitle": "Analyse d’activité par LSTM"
+  ,"purposeOfPage": "À quoi sert cette page ?"
+  ,"lstmExplanation": "Cette page rassemble l’historique d’activité de chaque animal. Les données du collier (position GPS et mouvements) sont analysées par un modèle LSTM, un réseau de neurones conçu pour comprendre des séquences dans le temps : il ne regarde pas une mesure isolée, mais la façon dont le comportement évolue d’heure en heure."
+  ,"collection": "Collecte"
+  ,"collarSendsMovement": "Le collier envoie régulièrement la position et les mouvements de l’animal."
+  ,"lstmAnalysis": "Analyse LSTM"
+  ,"modelStudiesData": "Le modèle étudie l’enchaînement des données pour reconnaître l’activité : repos, marche, course…"
+  ,"result": "Résultat"
+  ,"historyHighlightsBehavior": "L’historique met en évidence les comportements inhabituels pour vous permettre de réagir plus tôt."
+  ,"historyAnalysisTooltip": "Analyse LSTM : mouvements agités"
+  ,"aiAnalysis": "Analyse IA"
+  ,"historyPeriod": "Période à consulter"
+  ,"historyPeriodHint": "Choisissez le nombre de derniers jours à afficher"
+  ,"dayShort": "j"
+  ,"dayCount": "{count, plural, one{{count} jour} other{{count} jours}}"
+  ,"@dayCount": { "placeholders": { "count": { "type": "int" } } }
+  ,"loadingHistory": "Chargement de l’historique…"
+  ,"errorOccurred": "Une erreur est survenue."
+  ,"noMeasurementForAnimal": "Aucune mesure disponible pour cet animal."
+  ,"analysisServiceUnavailable": "Le service d’analyse est momentanément indisponible."
+  ,"historyNetworkError": "Impossible de joindre le serveur. Vérifiez votre connexion, ou réessayez plus tard : le service d’analyse peut être en erreur pour cet animal."
+  ,"invalidHistoryPeriod": "La période demandée est invalide."
+  ,"historyLoadError": "Une erreur est survenue lors du chargement."
+  ,"historyUnavailable": "Historique indisponible"
+  ,"retry": "Réessayer"
+  ,"insufficientAiReference": "Référence IA insuffisante"
+  ,"insufficientHistoryExplanation": "Le modèle n’a pas assez de points de référence pour calculer un rythme habituel."
+  ,"activityChartTitle": "Activité de l’animal"
+  ,"noDataYet": "Pas encore de données"
+  ,"noActivityForAnimal": "Aucune activité à afficher pour cet animal."
+  ,"noActivityData": "Aucune donnée d’activité à afficher."
+  ,"normalActivity": "Normal"
+  ,"calmerThanUsual": "Plus calme que d’habitude"
+  ,"moreActiveThanUsual": "Plus actif que d’habitude"
+  ,"usualRhythmAi": "Rythme habituel (IA)"
+  ,"noMeasurement": "Aucune"
+  ,"calm": "Calme"
+  ,"active": "Actif"
+  ,"measured": "Mesuré"
+  ,"partial": "Partiel"
+  ,"noMeasurementThisDay": "aucune mesure ce jour-là"
+  ,"usualActivity": "activité normale"
+  ,"noReferenceForComparison": "pas encore de référence pour comparer"
+  ,"incompleteDayNoEvaluation": "journée incomplète ({hours} h de mesures) : pas d’évaluation"
+  ,"@incompleteDayNoEvaluation": { "placeholders": { "hours": {} } }
+  ,"calmerThanUsualLong": "plus calme que d’habitude"
+  ,"moreActiveThanUsualLong": "plus actif que d’habitude"
+  ,"daysMondayShort": "lun."
+  ,"daysTuesdayShort": "mar."
+  ,"daysWednesdayShort": "mer."
+  ,"daysThursdayShort": "jeu."
+  ,"daysFridayShort": "ven."
+  ,"daysSaturdayShort": "sam."
+  ,"daysSundayShort": "dim."
+  ,"usualStepsTooltip": "Habituel : {steps} pas"
+  ,"@usualStepsTooltip": { "placeholders": { "steps": {} } }
+  ,"stepCount": "{steps} pas"
+  ,"@stepCount": { "placeholders": { "steps": {} } }
+  ,"historyIncompleteDay": "Données manquantes"
+  ,"messengerTab": "Messages"
+  ,"messengerTitle": "Messagerie"
+  ,"messengerSearch": "Rechercher une conversation"
+  ,"messengerAll": "Tout"
+  ,"messengerPrivate": "Privés"
+  ,"messengerGroups": "Groupes"
+  ,"messengerNewConversation": "Nouvelle conversation"
+  ,"messengerNewDiscussion": "Nouvelle discussion"
+  ,"messengerCreateGroup": "Créer un groupe"
+  ,"messengerChoosePeople": "Choisir les participants"
+  ,"messengerGroupName": "Nom du groupe"
+  ,"messengerMembers": "participants"
+  ,"messengerNoConversations": "Aucune conversation pour le moment."
+  ,"messengerNoUsers": "Aucun autre utilisateur n’est disponible."
+  ,"messengerLoadingError": "Impossible de charger les conversations."
+  ,"messengerRetry": "Réessayer"
+  ,"messengerMessageHint": "Écrire un message…"
+  ,"messengerSend": "Envoyer"
+  ,"messengerNoMessages": "Envoyez le premier message."
+  ,"messengerYou": "Vous"
+  ,"messengerCancel": "Annuler"
+  ,"messengerCreate": "Créer"
+  ,"messengerContinue": "Continuer"
+  ,"messengerSelectOne": "Sélectionnez au moins un utilisateur."
+  ,"messengerGroupNameRequired": "Saisissez le nom du groupe."
+  ,"messengerAddMembers": "Ajouter des participants"
+  ,"messengerGroupCreated": "Groupe créé"
+  ,"messengerConnectionError": "La messagerie est momentanément indisponible."
+  ,"messengerMessageError": "Le message n’a pas pu être envoyé."
+  ,"messengerToday": "Aujourd’hui"
+}

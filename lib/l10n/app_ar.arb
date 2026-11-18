@@ -1,0 +1,471 @@
+﻿{
+  "@@locale": "ar",
+  "appTitle": "تتبع GPS",
+  "languageFrench": "الفرنسية",
+  "languageArabic": "العربية",
+  "settingsLanguage": "اللغة",
+  "languageSelection": "اختيار اللغة",
+  "manageUsers": "إدارة المستخدمين",
+  "usersTitle": "المستخدمون",
+  "usersAdministrators": "المسؤولون",
+  "usersAdministrator": "مسؤول",
+  "usersAdminRole": "مسؤول",
+  "usersAdd": "إضافة",
+  "usersDelete": "حذف",
+  "usersDeleteTitle": "حذف هذا الحساب؟",
+  "usersDeleteMessage": "لن يتمكن {name} من تسجيل الدخول بعد الآن.",
+  "@usersDeleteMessage": { "placeholders": { "name": {} } },
+  "usersEmpty": "لا يوجد مستخدمون حاليًا.\nاضغط على «إضافة» لإنشاء أول مستخدم.",
+  "usersNoAdministrators": "لا يوجد مسؤولون.",
+  "usersNoUsers": "لا يوجد مستخدمون.",
+  "usersActions": "الإجراءات",
+  "usersNewUser": "مستخدم جديد",
+  "usersRole": "الدور",
+  "usersFirstName": "الاسم الأول",
+  "usersLoginNameHint": "يُستخدم لتسجيل الدخول",
+  "usersAgeLabel": "العمر",
+  "usersAge": "{age} سنة",
+  "@usersAge": { "placeholders": { "age": { "type": "int" } } },
+  "usersResidence": "مكان الإقامة",
+  "usersPhone": "رقم الهاتف",
+  "usersCinPassword": "رقم الهوية (كلمة المرور)",
+  "usersCinHint": "8 أرقام: ستُستخدم كلمة مرور",
+  "usersRequiredField": "هذا الحقل مطلوب.",
+  "usersAgeRequired": "العمر مطلوب.",
+  "usersAgeRange": "يجب أن يكون العمر بين 0 و120.",
+  "usersPhoneInvalid": "رقم الهاتف غير صالح.",
+  "usersCinInvalid": "يجب أن يتكون رقم الهوية من 8 أرقام.",
+  "usersSaving": "جارٍ الحفظ…",
+  "mapTab": "الخريطة",
+  "herdsTab": "القطعان",
+  "alertsTab": "التنبيهات",
+  "animalsTab": "الحيوانات",
+  "historyTab": "السجل",
+  "settingsTab": "الإعدادات",
+  "account": "الحساب",
+  "toggleBackgroundImage": "تخفيف صورة الخلفية",
+  "showBackgroundImage": "إظهار الصورة بالألوان",
+  "disconnect": "تسجيل الخروج",
+  "login": "تسجيل الدخول",
+  "register": "إنشاء حساب",
+  "start": "ابدأ",
+  "authorizedAccess": "وصول محجوز للحسابات المصرح لها",
+  "authConnecting": "جارٍ الاتصال بالخادم…",
+  "authWelcome": "مرحبًا",
+  "authCreateMainAccount": "إنشاء الحساب الرئيسي",
+  "authFirstAccountDescription": "لا يوجد أي حساب حتى الآن. سيكون هذا الحساب مسؤولًا عامًا، وسيتمكن من إضافة المسؤولين والمستخدمين.",
+  "authLoginDescription": "سجّل الدخول للوصول إلى متابعة قطيعك.",
+  "authName": "الاسم",
+  "authEnterName": "أدخل اسمك",
+  "authNameRequired": "الاسم مطلوب.",
+  "authMinNameLength": "يجب ألا يقل الاسم عن حرفين.",
+  "authPassword": "كلمة المرور",
+  "authPasswordRequired": "كلمة المرور مطلوبة.",
+  "authMinPasswordLength": "يجب ألا تقل كلمة المرور عن 8 أحرف.",
+  "authConfirmPassword": "تأكيد كلمة المرور",
+  "authPasswordsMismatch": "كلمتا المرور غير متطابقتين.",
+  "authShowPassword": "إظهار",
+  "authHidePassword": "إخفاء",
+  "authCreateAccount": "إنشاء الحساب",
+  "authNetworkError": "تعذّر الاتصال. تحقق من اتصال الشبكة ثم حاول مجددًا.",
+  "authInvalidInformation": "بعض المعلومات غير صالحة.",
+  "authServerError": "خطأ في الخادم ({statusCode}).",
+  "@authServerError": { "placeholders": { "statusCode": { "type": "int" } } },
+  "roleTitle": "دور التطبيق",
+  "appRoleDescription": "يسمح لك التطبيق بتتبع حيواناتك في الوقت الحقيقي ومراقبة حركتها والتحذير عند مغادرة الحيوان للمساحة المسموح بها.",
+  "trackingByGps": "تتبع القطيع عبر GPS",
+  "configuration": "الإعدادات",
+  "liveLocation": "الموقع المباشر",
+  "liveLocationDescription": "شاهد موقع كل حيوان على الخريطة في الوقت الحقيقي.",
+  "securityZone": "منطقة الأمان",
+  "securityZoneDescription": "حدد محيطًا حول المرعى للحفاظ على القطيع تحت السيطرة.",
+  "instantAlerts": "تنبيهات فورية",
+  "instantAlertsDescription": "احصل على تنبيه فوري في حال خروج الحيوان من المنطقة أو وجود أي خلل.",
+  "routeHistory": "سجل المسارات",
+  "routeHistoryDescription": "استعرض الحركات السابقة لفهم سلوك القطيع بشكل أفضل.",
+  "herdMonitoring": "مراقبة القطيع",
+  "herdMonitoringDescription": "خصص العتبات والتنبيهات وفق احتياجاتك.",
+  "availableParameters": "{count} إعدادات متاحة",
+  "@availableParameters": { "placeholders": { "count": {} } },
+  "loadingParameters": "جارٍ تحميل الإعدادات…",
+  "loadingImpossible": "تعذّر التحميل",
+  "retry": "إعادة المحاولة",
+  "saveParameters": "حفظ الإعدادات",
+  "settingsLanguageSection": "اللغة",
+  "languageToggleHint": "اختر لغتك المفضلة",
+  "parameterGroupingDistance": "مسافة تجميع القطيع",
+  "parameterGroupingDistanceDescription": "يكون الحيوانان في المجموعة نفسها إذا كانت المسافة بينهما أقل من هذه القيمة.",
+  "parameterMaximumDistance": "أقصى مسافة للابتعاد",
+  "parameterMaximumDistanceDescription": "يُعد الحيوان منعزلًا إذا تجاوزت المسافة بينه وبين القطيع هذه القيمة.",
+  "parameterMinimumHerdSize": "الحد الأدنى لحجم القطيع",
+  "parameterMinimumHerdSizeDescription": "الحد الأدنى لعدد الحيوانات لتكوين قطيع.",
+  "parameterMaximumSpeed": "السرعة القصوى",
+  "parameterMaximumSpeedDescription": "يُكتشف تجاوز السرعة عند تخطي هذه القيمة.",
+  "parameterImmobilityDuration": "مدة عدم الحركة",
+  "parameterImmobilityDurationDescription": "المدة التي تمر دون حركة قبل إطلاق تنبيه.",
+  "parameterCollarSignalDelay": "مدة انقطاع إشارة الطوق",
+  "parameterCollarSignalDelayDescription": "المدة دون بيانات جديدة قبل إطلاق تنبيه.",
+  "herdGroupingSection": "تجميع القطيع",
+  "herdGroupingSectionDescription": "كيفية تجميع الحيوانات ومتابعتها.",
+  "speedAndImmobilitySection": "السرعة وعدم الحركة",
+  "speedAndImmobilitySectionDescription": "حدود سرعة الحيوانات وفترات راحتها.",
+  "collarSignalSection": "إشارة الطوق",
+  "collarSignalSectionDescription": "مراقبة الإشارة التي يرسلها الطوق.",
+  "settingsLoadError": "تعذّر تحميل الإعدادات. تحقق من اتصالك بالإنترنت ثم حاول مجددًا.",
+  "settingsSaveSuccess": "تم حفظ الإعدادات بنجاح.",
+  "settingsSaveError": "تعذّر حفظ الإعدادات. تحقق من اتصالك بالإنترنت ثم حاول مجددًا.",
+  "notificationsTitle": "الإشعارات",
+  "notificationsDescription": "استقبل تنبيهات القطيع والرسائل الجديدة.",
+  "monitoringDurationLabel": "مدة المراقبة",
+  "monitoringStart": "تفعيل المراقبة",
+  "monitoringStop": "إيقاف المراقبة",
+  "monitoringActive": "المراقبة مفعّلة",
+  "monitoringInactive": "المراقبة غير مفعّلة",
+  "monitoringRunningDescription": "يتم التحقق من التنبيهات كل 30 ثانية طوال المدة المحددة. يلزم اتصال بالإنترنت.",
+  "monitoringPermissionDenied": "اسمح بالإشعارات في Android لاستقبال التنبيهات.",
+  "monitoringOperationError": "تعذّر تغيير مراقبة التنبيهات.",
+  "messagesNotifications": "إشعارات الرسائل",
+  "messagesNotificationsDescription": "أبلغني عند وصول رسالة جديدة حتى عند إغلاق التطبيق.",
+  "messagesNotificationsEnabled": "تم تفعيل إشعارات الرسائل.",
+  "messagesNotificationsDisabled": "تم إيقاف إشعارات الرسائل.",
+  "notificationsPermissionRequired": "اسمح بالإشعارات من إعدادات Android للمتابعة.",
+  "notificationDurationMinutes": "{minutes} دقيقة",
+  "@notificationDurationMinutes": { "placeholders": { "minutes": { "type": "int" } } },
+  "notificationDurationHours": "{hours} ساعة",
+  "@notificationDurationHours": { "placeholders": { "hours": { "type": "int" } } },
+  "settingsUnexpectedError": "حدث خطأ ما.",
+  "settingsServerError": "استجاب الخادم برمز الحالة {statusCode}.",
+  "@settingsServerError": { "placeholders": { "statusCode": { "type": "int" } } },
+  "settingsInvalidValue": "{label}: أدخل قيمة صحيحة.",
+  "@settingsInvalidValue": { "placeholders": { "label": {} } },
+  "requiredField": "هذا الحقل مطلوب.",
+  "integerRequired": "يجب إدخال عدد صحيح.",
+  "numberRequired": "يجب إدخال رقم.",
+  "settingsSaving": "جارٍ الحفظ…",
+  "settingsChangesApplied": "تُطبّق التغييرات بعد حفظها.",
+  "languageFrenchOption": "الفرنسية",
+  "languageArabicOption": "العربية",
+  "close": "إغلاق",
+  "countAlerts": "{count} في حالة تنبيه",
+  "@countAlerts": { "placeholders": { "count": {} } },
+  "searchAnimalsAndCoordinates": "ابحث عن حيوان أو إحداثيات",
+  "zoneLabel": "المنطقة: {name}",
+  "@zoneLabel": { "placeholders": { "name": {} } },
+  "unknownZone": "مرعى",
+  "positionLive": "موقع مباشر",
+  "collarNoSignal": "قلادة بدون إشارة",
+  "alertActive": "تنبيه فعال",
+  "herdGroupLabel": "قطيع كبير",
+  "smallHerdLabel": "قطيع صغير {number}",
+  "@smallHerdLabel": { "placeholders": { "number": {} } },
+  "isolatedCow": "بقرة منعزلة · {id}",
+  "@isolatedCow": { "placeholders": { "id": {} } },
+  "settingsTitle": "الإعدادات",
+  "languageSection": "اللغة",
+  "save": "حفظ",
+  "cancel": "إلغاء",
+  "countAnimals": "{count} حيوان",
+  "@countAnimals": { "placeholders": { "count": {} } },
+  "onlineStatus": "متصل",
+  "offlineStatus": "غير متصل",
+  "alertsTitle": "التنبيهات",
+  "alertsMonitoring": "مراقبة القطيع",
+  "alertsToHandle": "تنبيهات تحتاج إلى معالجة",
+  "alertsToHandleMessage": "يتم تحديث التنبيهات مباشرة.",
+  "active": "نشط",
+  "information": "معلومة",
+  "alertSection": "التنبيهات",
+  "infoSection": "معلومة",
+  "noAlertsActive": "لا توجد تنبيهات نشطة",
+  "noAlertsMessage": "يتم مراقبة القطيع، وستظهر التنبيهات الجديدة هنا.",
+  "connectionInterrupted": "تمت مقاطعة الاتصال",
+  "connectionInterruptedMessage": "تمت مقاطعة الاتصال. ستظهر التنبيهات عند استعادة الاتصال.",
+  "animalLeftHerd": "ابتعد هذا الحيوان عن بقية القطيع",
+  "animalOutsidePasture": "خرج هذا الحيوان خارج المرعى",
+  "animalAtDistanceFromLimit": "يقع على بعد {distance} م من الحد.",
+  "@animalAtDistanceFromLimit": { "placeholders": { "distance": {} } },
+  "animalInactive": "لم يتحرك هذا الحيوان تقريبًا منذ فترة طويلة. تحقق من عدم إصابته أو مرضه.",
+  "abnormalMovement": "يتحرك هذا الحيوان بسرعة أو مسافة أكبر من المعتاد.",
+  "collarSilent": "لا يرسل القلادة إشارة بعد الآن. تحقق من البطارية أو تغطية الشبكة.",
+  "abnormalBehavior": "تغير سلوك هذا الحيوان مقارنة بعاداته.",
+  "noDetailProvided": "لا توجد تفاصيل.",
+  "dateUnavailable": "التاريخ غير متوفر",
+  "lstmPageTitle": "الحركات غير الطبيعية",
+  "lstmPageSubtitle": "يتم اكتشافها تلقائيًا",
+  "lstmEventTitle": "حركة غير طبيعية",
+  "lstmExpectedPosition": "الموقع المتوقع",
+  "lstmActualPosition": "الموقع الفعلي",
+  "lstmDistanceLabel": "الفرق: {distance}",
+  "@lstmDistanceLabel": { "placeholders": { "distance": {} } },
+  "lstmMeters": "{distance} م",
+  "@lstmMeters": { "placeholders": { "distance": { "type": "int" } } },
+  "lstmKilometers": "{distance} كم",
+  "@lstmKilometers": { "placeholders": { "distance": {} } },
+  "lstmMovementDescription": "وفقًا لسلوكه المعتاد، كان يُفترض أن يكون الحيوان عند النقطة الزرقاء. لكنه يوجد فعليًا عند النقطة الحمراء، على بُعد نحو {distance}.",
+  "@lstmMovementDescription": { "placeholders": { "distance": {} } },
+  "lstmAdviceStrong": "هذه الحركة غير معتادة جدًا. ننصح بالتحقق من حالة الحيوان.",
+  "lstmAdviceMarked": "هذه الحركة غير معتادة. يُنصح بالتحقق من الحيوان.",
+  "lstmAdviceModerate": "هذه الحركة غير معتادة قليلًا؛ يُفضّل مراقبتها.",
+  "lstmLegacyPositionUnavailable": "مواقع هذا التنبيه القديم غير متاحة. ستظهر الخريطة مع التنبيهات الجديدة.",
+  "lstmTodayAt": "اليوم في {time}",
+  "@lstmTodayAt": { "placeholders": { "time": {} } },
+  "lstmYesterdayAt": "أمس في {time}",
+  "@lstmYesterdayAt": { "placeholders": { "time": {} } },
+  "lstmDateAt": "{day}/{month}/{year} في {time}",
+  "@lstmDateAt": {
+    "placeholders": {
+      "day": {},
+      "month": {},
+      "year": { "type": "int" },
+      "time": {}
+    }
+  },
+  "lstmLoadError": "تعذّر تحميل البيانات. تحقق من اتصالك ثم حاول مجددًا.",
+  "lstmNoEvents": "لا توجد حركات غير طبيعية",
+  "lstmNoEventsMessage": "كل شيء يبدو طبيعيًا. ستظهر التنبيهات الجديدة هنا.",
+  "startedAt": "البداية ·",
+  "viewActivityHistory": "عرض سجل النشاط",
+  "animalNotIdentified": "حيوان غير محدد",
+  "unknownAlert": "تنبيه",
+  "animalSeparatedFromGroup": "حيوان منفصل عن المجموعة حاليًا",
+  "animalsSeparatedFromGroup": "حيوانات منفصلة عن المجموعة حاليًا",
+  "alertTypeOutOfZone": "حيوان بعيد عن القطيع",
+  "alertTypeOutsidePasture": "حيوان خارج المرعى",
+  "alertTypeInactive": "حيوان ساكن لفترة طويلة",
+  "alertTypeUnusualMovement": "حركة غير طبيعية",
+  "alertTypeCollarSilent": "قلادة بدون إشارة",
+  "alertTypeUnusualBehavior": "سلوك غير معتاد",
+  "herdOverviewTitle": "نظرة عامة على المجموعات",
+  "waitingForData": "في انتظار البيانات",
+  "groupsWillAppearHere": "ستظهر المجموعات هنا بمجرد استقبال أول البيانات.",
+  "herdDataIncomplete": "بيانات القطيع غير مكتملة",
+  "grandHerdNotYetDisplayed": "لا يمكن عرض القطيع الكبير بعد. يرجى التحقق من البيانات المستلمة.",
+  "noHerdDetected": "لم يتم اكتشاف قطيع بعد",
+  "groupAppearsWhenEnoughAnimals": "ستظهر مجموعة عندما يتوفر عدد كافٍ من الحيوانات النشطة.",
+  "zoomIn": "تكبير",
+  "zoomOut": "تصغير",
+  "centerPasture": "توسيط على منطقة الرعي",
+  "centerAnimals": "توسيط على الحيوانات",
+  "waitingForFirstPositions": "في انتظار أول المواقع…",
+  "trackingConnectionInterrupted": "تمت مقاطعة اتصال المتابعة",
+  "noPositionsAvailable": "لا توجد مواقع متاحة حاليًا",
+  "noPastureRecorded": "لم يتم تسجيل أي منطقة رعي",
+  "noAnimalMatches": "لا يوجد حيوان يطابق «{query}»",
+  "@noAnimalMatches": { "placeholders": { "query": {} } },
+  "enterCoordinatesFormat": "أدخل الإحداثيات بالصيغة 36.80, 10.18",
+  "invalidCoordinatesExample": "إحداثيات غير صالحة. مثال: 36.80, 10.18",
+  "pastureName": "المرعى",
+  "mainPastureName": "المرعى الرئيسي",
+  "automaticModeLabel": "تلقائي",
+  "noGroupsDetected": "لم يتم اكتشاف أي مجموعة",
+  "groupCount": "{count, plural, =0{لا توجد مجموعات} one{مجموعة واحدة} two{مجموعتان} few{{count} مجموعات} many{{count} مجموعة} other{{count} مجموعة}}",
+  "@groupCount": { "placeholders": { "count": { "type": "int" } } },
+  "detectedGroups": "المجموعات المكتشفة",
+  "liveTrackedAnimals": "الحيوانات المتابعة مباشرة",
+  "animalInAlert": "حيوان في حالة تنبيه",
+  "alertSuffix": "تنبيه",
+  "pastureZone": "منطقة الرعي",
+  "distanceToMainHerd": "المسافة إلى القطيع الرئيسي",
+  "animalsInGroup": "{count, plural, =0{0 حيوان} one{حيوان واحد} two{حيوانان} few{{count} حيوانات} many{{count} حيوانًا} other{{count} حيوان}}",
+  "@animalsInGroup": { "placeholders": { "count": { "type": "int" } } },
+  "animalsOutsideZone": "{count, plural, one{حيوان واحد خارج المنطقة: {ids}} two{حيوانان خارج المنطقة: {ids}} few{# حيوانات خارج المنطقة: {ids}} many{# حيوانًا خارج المنطقة: {ids}} other{# حيوان خارج المنطقة: {ids}}}",
+  "@animalsOutsideZone": { "placeholders": { "count": { "type": "int" }, "ids": {} } },
+  "openStreetMapAttribution": "© مساهمو OpenStreetMap"
+  ,"herdTracking": "مراقبة القطيع"
+  ,"currentComposition": "التركيبة الحالية"
+  ,"herdCompositionDescription": "تعرّف على المجموعات والحيوانات المنعزلة."
+  ,"isolatedGroups": "المجموعات المنعزلة"
+  ,"animalsAlone": "الحيوانات المنعزلة"
+  ,"animalsInGroupLabel": "الحيوانات في المجموعة"
+  ,"otherGroups": "مجموعات أخرى"
+  ,"noOtherGroups": "لم يتم اكتشاف مجموعات أخرى حاليًا."
+  ,"isolatedAnimal": "حيوان منعزل"
+  ,"smallHerd": "قطيع صغير"
+  ,"distanceUnavailable": "المسافة غير متاحة"
+  ,"distanceFromMainHerd": "على بُعد {distance} م من القطيع الرئيسي"
+  ,"@distanceFromMainHerd": { "placeholders": { "distance": {} } }
+  ,"thresholdExceeded": "تم تجاوز الحد"
+  ,"belowThreshold": "ضمن الحد"
+  ,"animalIdsUnavailable": "معرّفات الحيوانات غير متاحة."
+  ,"myHerd": "قطيعي"
+  ,"animalTrackingLive": "متابعة الحيوانات مباشرة"
+  ,"trackedAnimals": "الحيوانات المتابعة"
+  ,"searchAnimalsGroupsTypes": "ابحث عن حيوان أو مجموعة أو نوع"
+  ,"clearSearch": "مسح البحث"
+  ,"cardsView": "بطاقات"
+  ,"tableView": "جدول"
+  ,"animalsHeading": "الحيوانات"
+  ,"resultCount": "{count, plural, zero{لا توجد نتائج} one{نتيجة واحدة} two{نتيجتان} few{{count} نتائج} many{{count} نتيجة} other{{count} نتيجة}}"
+  ,"@resultCount": { "placeholders": { "count": { "type": "int" } } }
+  ,"identifier": "المعرّف"
+  ,"group": "المجموعة"
+  ,"type": "النوع"
+  ,"sex": "الجنس"
+  ,"age": "العمر"
+  ,"weight": "الوزن"
+  ,"gps": "الموقع"
+  ,"lastMeasurement": "آخر قياس"
+  ,"action": "إجراء"
+  ,"edit": "تعديل"
+  ,"editInformation": "تعديل المعلومات"
+  ,"unknownGroup": "مجموعة غير معروفة"
+  ,"addAnimalDetails": "أضف العمر والنوع والوزن والجنس"
+  ,"animalInfoSaved": "تم حفظ معلومات {id}"
+  ,"@animalInfoSaved": { "placeholders": { "id": {} } }
+  ,"animalInfoUnavailable": "معلومات الحيوانات غير متاحة."
+  ,"now": "الآن"
+  ,"timeAgo": "قبل {count} {unit}"
+  ,"@timeAgo": { "placeholders": { "count": {}, "unit": {} } }
+  ,"secondsShort": "ث"
+  ,"minutesShort": "د"
+  ,"hoursShort": "س"
+  ,"daysShort": "ي"
+  ,"gpsUnavailable": "موقع GPS غير متاح"
+  ,"animalFeatures": "معلومات الحيوان"
+  ,"typeAndBreed": "النوع / السلالة"
+  ,"currentValue": "القيمة الحالية"
+  ,"female": "أنثى"
+  ,"male": "ذكر"
+  ,"yearsUnit": "سنة"
+  ,"monthsUnit": "شهر"
+  ,"ageYears": "{count, plural, zero{0 سنة} one{سنة واحدة} two{سنتان} few{{count} سنوات} many{{count} سنة} other{{count} سنة}}"
+  ,"@ageYears": { "placeholders": { "count": { "type": "int" } } }
+  ,"ageMonths": "{count} شهر"
+  ,"invalidNumber": "الرقم غير صالح"
+  ,"ageRangeError": "يجب أن يكون العمر بين 0 و40 سنة"
+  ,"weightRangeError": "يجب أن يكون الوزن بين 1 و1500 كغ"
+  ,"saveFailed": "تعذّر الحفظ."
+  ,"cancel": "إلغاء"
+  ,"save": "حفظ"
+  ,"waitingPositions": "في انتظار المواقع…"
+  ,"trackingOffline": "المتابعة غير متصلة"
+  ,"noAnimalFound": "لم يتم العثور على حيوان"
+  ,"animalsAppearOnGps": "ستظهر الحيوانات هنا عند وصول تحديث GPS التالي."
+  ,"connectionInterruptedAnimals": "الاتصال مقطوع. ستظهر المواقع مجددًا عند استعادة الاتصال."
+  ,"tryDifferentSearch": "جرّب معرّفًا أو مجموعة أو نوعًا آخر."
+  ,"resetSearch": "إعادة ضبط البحث"
+  ,"speciesCattle": "الأبقار"
+  ,"speciesSheep": "الأغنام"
+  ,"speciesHorses": "الخيول"
+  ,"breedHolstein": "هولشتاين (أبيض وأسود)"
+  ,"breedBrownSwiss": "براون سويس (بنية)"
+  ,"breedTarentaise": "تارانتيس"
+  ,"breedMontbeliarde": "مونبيليارد"
+  ,"breedNormande": "نورماند"
+  ,"breedRedPied": "بي روج"
+  ,"breedJersey": "جيرسي"
+  ,"breedAtlasBrown": "بنية الأطلس (أربي)"
+  ,"breedCapBonBlonde": "شقراء الوطن القبلي"
+  ,"breedCrossbred": "سلالات مهجنة"
+  ,"breedBarbarine": "برابرين (عربي)"
+  ,"breedFineTail": "رفيعة الذيل الغربية (غربي)"
+  ,"breedThibar": "سوداء تيبار"
+  ,"breedSiciloSarde": "صقلية سردينية"
+  ,"breedCherki": "شرقي (هجين)"
+  ,"breedBarb": "بربري تونسي"
+  ,"breedArabian": "عربي أصيل"
+  ,"breedArabBarb": "عربي بربري"
+  ,"breedMogodsPony": "مهر المغود"
+  ,"breedThoroughbred": "إنجليزي أصيل"
+  ,"historyTitle": "سجل النشاط"
+  ,"recentAnimalActivity": "متابعة حديثة لحيواناتك"
+  ,"searchAnimalId": "ابحث باستخدام المعرّف (مثال: cow01)"
+  ,"clear": "مسح"
+  ,"yourAnimals": "حيواناتك"
+  ,"selectAnimalForActivity": "اختر حيوانًا للاطلاع على نشاطه."
+  ,"viewActivityForSevenDays": "عرض النشاط خلال 7 أيام"
+  ,"noHistoryAnimals": "لا توجد حيوانات لعرض سجلها."
+  ,"noSearchResults": "لا توجد نتائج"
+  ,"noAnimalToDisplay": "لا توجد حيوانات لعرضها"
+  ,"noAnimalMatchesSearch": "لا يوجد حيوان يطابق «{query}»."
+  ,"@noAnimalMatchesSearch": { "placeholders": { "query": {} } }
+  ,"lstmAnalysisTitle": "تحليل النشاط باستخدام LSTM"
+  ,"purposeOfPage": "ما فائدة هذه الصفحة؟"
+  ,"lstmExplanation": "تعرض هذه الصفحة سجل نشاط كل حيوان. يحلل نموذج LSTM، وهو شبكة عصبية مصممة لفهم التسلسلات الزمنية، بيانات الطوق مثل موقع GPS والحركة. فهو لا ينظر إلى قياس منفرد، بل إلى كيفية تغير السلوك ساعة بعد ساعة."
+  ,"collection": "جمع البيانات"
+  ,"collarSendsMovement": "يرسل الطوق موقع الحيوان وحركته بانتظام."
+  ,"lstmAnalysis": "تحليل LSTM"
+  ,"modelStudiesData": "يدرس النموذج تسلسل البيانات للتعرف على النشاط: الراحة والمشي والجري…"
+  ,"result": "النتيجة"
+  ,"historyHighlightsBehavior": "يسلط السجل الضوء على السلوك غير المعتاد لمساعدتك على التدخل مبكرًا."
+  ,"historyAnalysisTooltip": "تحليل LSTM: الحركات النشطة"
+  ,"aiAnalysis": "تحليل الذكاء الاصطناعي"
+  ,"historyPeriod": "الفترة المراد عرضها"
+  ,"historyPeriodHint": "اختر عدد الأيام الأخيرة لعرضها"
+  ,"dayShort": "ي"
+  ,"dayCount": "{count, plural, zero{0 يوم} one{يوم واحد} two{يومان} few{{count} أيام} many{{count} يومًا} other{{count} يوم}}"
+  ,"@dayCount": { "placeholders": { "count": { "type": "int" } } }
+  ,"loadingHistory": "جارٍ تحميل السجل…"
+  ,"errorOccurred": "حدث خطأ."
+  ,"noMeasurementForAnimal": "لا توجد قياسات لهذا الحيوان."
+  ,"analysisServiceUnavailable": "خدمة التحليل غير متاحة مؤقتًا."
+  ,"historyNetworkError": "تعذر الاتصال بالخادم. تحقق من اتصالك أو حاول لاحقًا؛ قد تكون خدمة التحليل متوقفة لهذا الحيوان."
+  ,"invalidHistoryPeriod": "الفترة المطلوبة غير صالحة."
+  ,"historyLoadError": "حدث خطأ أثناء تحميل السجل."
+  ,"historyUnavailable": "السجل غير متاح"
+  ,"retry": "إعادة المحاولة"
+  ,"insufficientAiReference": "بيانات مرجعية غير كافية للذكاء الاصطناعي"
+  ,"insufficientHistoryExplanation": "لا يملك النموذج نقاطًا مرجعية كافية لحساب النشاط المعتاد."
+  ,"activityChartTitle": "نشاط الحيوان"
+  ,"noDataYet": "لا توجد بيانات بعد"
+  ,"noActivityForAnimal": "لا يوجد نشاط لعرضه لهذا الحيوان."
+  ,"noActivityData": "لا توجد بيانات نشاط لعرضها."
+  ,"normalActivity": "طبيعي"
+  ,"calmerThanUsual": "أقل نشاطًا من المعتاد"
+  ,"moreActiveThanUsual": "أكثر نشاطًا من المعتاد"
+  ,"usualRhythmAi": "النشاط المعتاد (ذكاء اصطناعي)"
+  ,"noMeasurement": "لا توجد قياسات"
+  ,"calm": "هادئ"
+  ,"active": "نشط"
+  ,"measured": "تم القياس"
+  ,"partial": "جزئي"
+  ,"noMeasurementThisDay": "لا توجد قياسات في هذا اليوم"
+  ,"usualActivity": "النشاط طبيعي"
+  ,"noReferenceForComparison": "لا توجد بيانات مرجعية للمقارنة بعد"
+  ,"incompleteDayNoEvaluation": "يوم غير مكتمل ({hours} ساعة من القياسات): لا يمكن التقييم"
+  ,"@incompleteDayNoEvaluation": { "placeholders": { "hours": {} } }
+  ,"calmerThanUsualLong": "أقل نشاطًا من المعتاد"
+  ,"moreActiveThanUsualLong": "أكثر نشاطًا من المعتاد"
+  ,"daysMondayShort": "اثن."
+  ,"daysTuesdayShort": "ثلا."
+  ,"daysWednesdayShort": "أرب."
+  ,"daysThursdayShort": "خمي."
+  ,"daysFridayShort": "جمع."
+  ,"daysSaturdayShort": "سبت"
+  ,"daysSundayShort": "أحد"
+  ,"usualStepsTooltip": "المعتاد: {steps} خطوة"
+  ,"@usualStepsTooltip": { "placeholders": { "steps": {} } }
+  ,"stepCount": "{steps} خطوة"
+  ,"@stepCount": { "placeholders": { "steps": {} } }
+  ,"historyIncompleteDay": "بيانات غير مكتملة"
+  ,"messengerTab": "الرسائل"
+  ,"messengerTitle": "المراسلة"
+  ,"messengerSearch": "البحث في المحادثات"
+  ,"messengerAll": "الكل"
+  ,"messengerPrivate": "شخصية"
+  ,"messengerGroups": "المجموعات"
+  ,"messengerNewConversation": "محادثة جديدة"
+  ,"messengerNewDiscussion": "محادثة جديدة"
+  ,"messengerCreateGroup": "إنشاء مجموعة"
+  ,"messengerChoosePeople": "اختيار المشاركين"
+  ,"messengerGroupName": "اسم المجموعة"
+  ,"messengerMembers": "مشاركون"
+  ,"messengerNoConversations": "لا توجد محادثات بعد."
+  ,"messengerNoUsers": "لا يوجد مستخدمون آخرون."
+  ,"messengerLoadingError": "تعذر تحميل المحادثات."
+  ,"messengerRetry": "إعادة المحاولة"
+  ,"messengerMessageHint": "اكتب رسالة…"
+  ,"messengerSend": "إرسال"
+  ,"messengerNoMessages": "أرسل أول رسالة."
+  ,"messengerYou": "أنت"
+  ,"messengerCancel": "إلغاء"
+  ,"messengerCreate": "إنشاء"
+  ,"messengerContinue": "متابعة"
+  ,"messengerSelectOne": "اختر مستخدمًا واحدًا على الأقل."
+  ,"messengerGroupNameRequired": "أدخل اسم المجموعة."
+  ,"messengerAddMembers": "إضافة مشاركين"
+  ,"messengerGroupCreated": "تم إنشاء المجموعة"
+  ,"messengerConnectionError": "المراسلة غير متاحة مؤقتًا."
+  ,"messengerMessageError": "تعذر إرسال الرسالة."
+  ,"messengerToday": "اليوم"
+}

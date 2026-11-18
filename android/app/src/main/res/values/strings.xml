@@ -1,0 +1,12 @@
+<resources>
+    <string name="monitoring_title">Surveillance des alertes</string>
+    <string name="monitoring_running">Suivi actif jusqu’à la fin de la durée choisie.</string>
+    <string name="monitoring_retry">Connexion impossible. Nouvelle tentative en cours.</string>
+    <string name="monitoring_channel">Surveillance du troupeau</string>
+    <string name="monitoring_alert_title">Alerte du troupeau</string>
+    <string name="monitoring_alert_detected">Une alerte active a été détectée.</string>
+    <string name="unknown_animal">Animal</string>
+    <string name="message_notification_title">Nouveau message</string>
+    <string name="message_notification_body">Vous avez reçu un nouveau message.</string>
+    <string name="message_notification_channel">Messages</string>
+</resources>

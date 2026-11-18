@@ -1,0 +1,12 @@
+<resources>
+    <string name="monitoring_title">مراقبة التنبيهات</string>
+    <string name="monitoring_running">المتابعة نشطة حتى انتهاء المدة المحددة.</string>
+    <string name="monitoring_retry">تعذر الاتصال. ستتم إعادة المحاولة.</string>
+    <string name="monitoring_channel">مراقبة القطيع</string>
+    <string name="monitoring_alert_title">تنبيه القطيع</string>
+    <string name="monitoring_alert_detected">تم اكتشاف تنبيه نشط.</string>
+    <string name="unknown_animal">حيوان</string>
+    <string name="message_notification_title">رسالة جديدة</string>
+    <string name="message_notification_body">لديك رسالة جديدة.</string>
+    <string name="message_notification_channel">الرسائل</string>
+</resources>
